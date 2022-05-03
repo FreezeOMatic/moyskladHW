@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"std/PRACTICE/moyskladHW/employers"
+
+	"github.com/FreezeOMatic/moyskladHW/employers"
 )
 
 func main() {
