@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-
-	login, password := "admin@freezeomatic", "vcnpckszvwjj"
+	// u just should put valid credentials to make it work
+	login, password := "login", "password"
 
 	token, err := employers.GetToken(login, password)
 	if err != nil {
