@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	// u just should put valid credentials to make it work
+	// u just should put valid credentials here to make it work
 	login, password := "login", "password"
 
 	token, err := employers.GetToken(login, password)
